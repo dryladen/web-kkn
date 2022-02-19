@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "exampleSite/static/image/blog"
-public_folder: "/image/blog"
+media_folder: "exampleSite/static/images/blog"
+public_folder: "/images/blog"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog"
