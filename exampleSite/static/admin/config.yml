@@ -3,8 +3,8 @@ backend:
   branch: main
 
 publish_mode: editorial_workflow
-media_folder: "exampleSite/static/images"
-public_folder: "/images"
+media_folder: "exampleSite/static/images/uploads"
+public_folder: "/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog"
