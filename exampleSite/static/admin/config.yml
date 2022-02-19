@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "static/image/blog"
-public_folder: "img"
+media_folder: "exampleSite/static/image/blog"
+public_folder: "/image/blog"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog"
@@ -22,6 +22,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Type", name: "post", widget: "hidden", default: "post"}
       - {label: "Gambar", name: "image", widget: "image", default: "images/blog/post-1.jpg"}
       - {label: "Deskripsi", name: "dscription", widget: "string", default: "Ini adalah deskripsi"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Isi Artikel", name: "body", widget: "markdown"}
   
   
