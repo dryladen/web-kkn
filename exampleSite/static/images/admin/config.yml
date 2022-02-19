@@ -1,0 +1,27 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/image/blog"
+public_folder: "img"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "blog"
+    label: "Blog Artikel"
+    folder: "content/blog/english"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Judul Blog", name: "title", widget: "string", default: "Judul Artikel"}
+      - {label: "Tanggal", name: "date", widget: "datetime"}
+      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image", default: "images/backgrounds/page-title.jpg"}
+      - {label: "Penulis", name: "author", widget: "string", default: "John Doe"}
+      - {label: "Kategori", name: "kategori", widget: "string"}
+      - {label: "Topik", name: "topik", widget: "list"}
+      - {label: "Type", name: "post", widget: "hidden", default: "post"}
+      - {label: "Gambar", name: "image", widget: "image", default: "images/blog/post-1.jpg"}
+      - {label: "Deskripsi", name: "dscription", widget: "string", default: "Ini adalah deskripsi"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  
