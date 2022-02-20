@@ -90,7 +90,7 @@ Languages:
           name: notice
           url: notice/
         - parent: Lainnya
-          name: event
+          name: Acara Lokal
           url: event/
         - parent: Lainnya
           name: scholarship
