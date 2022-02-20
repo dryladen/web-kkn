@@ -25,4 +25,25 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Deskripsi", name: "dscription", widget: "string", default: "Ini adalah deskripsi"}
       - {label: "Isi Artikel", name: "body", widget: "markdown"}
   
-  
+  - name: "acara"
+    label: "Acara"
+    folder: "exampleSite/content/english/event"
+    create: true
+    slug: "{{year}}-{{month}}-{{slug}}"
+    fields:
+      - {label: "Judul Acara", name: "event", widget: "string"}
+      - {label: "Tanggal Di Upload", name: "publishDate", widget: "datetime"}
+      - {label: "Tanggal Acara", name: "date", widget: "datetime"}
+      - {label: "Masukkan Draft", name: "draft", widget: "boolean"}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+      - {label: "Poster Untuk Event", name: "image", widget: "image"}
+      - {label: "Harga", name: "fee", widget: "string"}
+      - {label: "Link Pendaftaran", name: "apply_url", widget: "string"}
+      - {label: "Tipe", name: "type", widget: "hidden", default: "event"}
+      - {label: "Pembicara", name: "speaker", widget: "list", fields: 
+        - {label: "Nama Pembicara", name: "name", widget: "string"}
+        - {label: "Gambar Pembicara", name: "image", widget: "string"}
+        - {label: "Gelar/Penamaan", name: "designation", widget: "string"}
+        }
+      - {label: "Body", name: "body", widget: "markdown"}

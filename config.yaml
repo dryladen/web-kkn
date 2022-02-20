@@ -1,6 +1,6 @@
 baseURL: 'bengkuring-rt32.netlify.app'
 title: Website KKN
-paginate: '6'
+paginate: '3'
 summaryLength: '10'
 disqusShortname: educenter
 disableLanguages: []
