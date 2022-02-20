@@ -17,7 +17,7 @@ duration : "06 Testing"
 # weekly
 weekly : "03 hours"
 # course fee
-fee : "From: $699"
+fee : "Rp. 10.000"
 # apply url
 apply_url : "#"
 # type

@@ -55,7 +55,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Nama Pembicara", name: "name", widget: "string"}
           - {label: "Gambar Pembicara", name: "image", widget: "image"}
           - {label: "Gelar/Penamaan", name: "designation", widget: "string"}
-        
       - {label: "Body", name: "body", widget: "markdown"}
   
   - name: "pasar"

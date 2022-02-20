@@ -9,7 +9,7 @@ description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 # course thumbnail
 image: "images/courses/sate.jpg"
 # taxonomy
-category: "Rp. 15.000"
+# category: "Rp. 15.000"
 # teacher
 teacher: "Duis Rio"
 # duration
@@ -17,7 +17,7 @@ duration : "06 Month"
 # weekly
 weekly : "03 hours"
 # course fee
-fee : "From: $699"
+fee : "Rp. 15.000"
 # apply url
 apply_url : "#"
 # type
