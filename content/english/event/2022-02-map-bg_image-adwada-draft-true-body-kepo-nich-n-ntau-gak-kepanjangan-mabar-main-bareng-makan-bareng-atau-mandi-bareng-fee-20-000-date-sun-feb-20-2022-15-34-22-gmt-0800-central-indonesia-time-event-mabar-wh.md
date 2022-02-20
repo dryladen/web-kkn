@@ -2,7 +2,7 @@
 event: Mabar ?! What is that mean ??
 publishDate: 2022-02-20T07:34:22.597Z
 date: 2022-02-20T07:34:22.621Z
-draft: true
+draft: false
 bg_image: adwada
 description: Bingung bangett
 image: wdadaw
