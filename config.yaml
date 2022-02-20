@@ -1,6 +1,5 @@
 baseURL: 'bengkuring-rt32.netlify.app'
 title: Educenter | hugo education template
-theme: educenter-hugo
 paginate: '6'
 summaryLength: '10'
 disqusShortname: educenter
@@ -75,7 +74,7 @@ Languages:
       [Themefisher](https://themefisher.com/hugo-themes/)
     menu:
       main:
-        - name: About
+        - name: Tentang
           url: about/
           weight: 1
         - name: course
@@ -85,8 +84,8 @@ Languages:
           name: Pages
           hasChildren: true
         - parent: Pages
-          name: teacher
-          url: teacher/
+          name: Staff
+          url: staff/
         - parent: Pages
           name: notice
           url: notice/
@@ -106,8 +105,8 @@ Languages:
           url: contact/
           weight: 5
       footer:
-        - name: teacher
-          url: teacher/
+        - name: staff
+          url: staff/
         - name: notice
           url: notice/
         - name: event
@@ -116,56 +115,56 @@ Languages:
           url: scholarship/
         - name: research
           url: research/
-  fr:
-    languageName: Fr
-    languageCode: fr-fr
-    contentDir: content/french
-    weight: 2
-    home: Accueil
-    copyright: >-
-      Copyright &copy; 2021 a hugo theme by
-      [Themefisher](https://themefisher.com/hugo-themes/)
-    menu:
-      main:
-        - name: À propos
-          url: about/
-          weight: 1
-        - name: Cours
-          url: course/
-          weight: 2
-        - weight: 3
-          name: Pages
-          hasChildren: true
-        - parent: Pages
-          name: teacher
-          url: teacher/
-        - parent: Pages
-          name: notice
-          url: notice/
-        - parent: Pages
-          name: Évènement
-          url: event/
-        - parent: Pages
-          name: Cursus
-          url: scholarship/
-        - parent: Pages
-          name: research
-          url: research/
-        - name: blog
-          url: blog/
-          weight: 4
-        - name: Contact
-          url: contact/
-          weight: 5
-      footer:
-        - name: teacher
-          url: teacher/
-        - name: notice
-          url: notice/
-        - name: event
-          url: event/
-        - name: scholarship
-          url: scholarship/
-        - name: research
-          url: research/
+  # fr:
+  #   languageName: Fr
+  #   languageCode: fr-fr
+  #   contentDir: content/french
+  #   weight: 2
+  #   home: Accueil
+  #   copyright: >-
+  #     Copyright &copy; 2021 a hugo theme by
+  #     [Themefisher](https://themefisher.com/hugo-themes/)
+  #   menu:
+  #     main:
+  #       - name: À propos
+  #         url: about/
+  #         weight: 1
+  #       - name: Cours
+  #         url: course/
+  #         weight: 2
+  #       - weight: 3
+  #         name: Pages
+  #         hasChildren: true
+  #       - parent: Pages
+  #         name: teacher
+  #         url: teacher/
+  #       - parent: Pages
+  #         name: notice
+  #         url: notice/
+  #       - parent: Pages
+  #         name: Évènement
+  #         url: event/
+  #       - parent: Pages
+  #         name: Cursus
+  #         url: scholarship/
+  #       - parent: Pages
+  #         name: research
+  #         url: research/
+  #       - name: blog
+  #         url: blog/
+  #         weight: 4
+  #       - name: Contact
+  #         url: contact/
+  #         weight: 5
+  #     footer:
+  #       - name: teacher
+  #         url: teacher/
+  #       - name: notice
+  #         url: notice/
+  #       - name: event
+  #         url: event/
+  #       - name: scholarship
+  #         url: scholarship/
+  #       - name: research
+  #         url: research/
 
