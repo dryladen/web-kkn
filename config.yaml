@@ -1,5 +1,5 @@
 baseURL: 'bengkuring-rt32.netlify.app'
-title: Educenter | hugo education template
+title: Website KKN
 paginate: '6'
 summaryLength: '10'
 disqusShortname: educenter
@@ -29,10 +29,10 @@ params:
   google_analitycs_id: ''
   top_header: true
   preloader:
-    enable: true
+    enable: false
     preloader: images/preloader.gif
   subscription:
-    enable: true
+    enable: false
     mailchimp_form_action: >-
       https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
     mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074
@@ -40,8 +40,8 @@ params:
     enable: true
     gmap_api: >-
       https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
-    map_latitude: '51.5223477'
-    map_longitude: '-0.1622023'
+    map_latitude: '-0.4269341976387936'
+    map_longitude: '117.16266208698144'
     map_marker: images/marker.png
   cookies:
     enable: true
@@ -115,56 +115,3 @@ Languages:
           url: scholarship/
         - name: research
           url: research/
-  # fr:
-  #   languageName: Fr
-  #   languageCode: fr-fr
-  #   contentDir: content/french
-  #   weight: 2
-  #   home: Accueil
-  #   copyright: >-
-  #     Copyright &copy; 2021 a hugo theme by
-  #     [Themefisher](https://themefisher.com/hugo-themes/)
-  #   menu:
-  #     main:
-  #       - name: À propos
-  #         url: about/
-  #         weight: 1
-  #       - name: Cours
-  #         url: course/
-  #         weight: 2
-  #       - weight: 3
-  #         name: Pages
-  #         hasChildren: true
-  #       - parent: Pages
-  #         name: teacher
-  #         url: teacher/
-  #       - parent: Pages
-  #         name: notice
-  #         url: notice/
-  #       - parent: Pages
-  #         name: Évènement
-  #         url: event/
-  #       - parent: Pages
-  #         name: Cursus
-  #         url: scholarship/
-  #       - parent: Pages
-  #         name: research
-  #         url: research/
-  #       - name: blog
-  #         url: blog/
-  #         weight: 4
-  #       - name: Contact
-  #         url: contact/
-  #         weight: 5
-  #     footer:
-  #       - name: teacher
-  #         url: teacher/
-  #       - name: notice
-  #         url: notice/
-  #       - name: event
-  #         url: event/
-  #       - name: scholarship
-  #         url: scholarship/
-  #       - name: research
-  #         url: research/
-
