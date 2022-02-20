@@ -13,13 +13,13 @@ collections: # A list of collections the CMS should be able to edit
     label: "Blog Artikel"
     folder: "content/english/blog"
     create: true
-    slug: "{{slug}}"
+    identifier_field: name
     media_folder: "/static/images/blog/"
     public_folder: "/images/blog"
     fields:
       - {label: "Judul Blog", name: "title", widget: "string", default: "Judul Artikel"}
       - {label: "Tanggal", name: "date", widget: "datetime"}
-      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image", default: "images/backgrounds/page-title.jpg"}
       - {label: "Penulis", name: "author", widget: "string", default: "John Doe"}
       - {label: "Kategori", name: "kategori", widget: "string"}
@@ -33,14 +33,14 @@ collections: # A list of collections the CMS should be able to edit
     label: "Acara"
     folder: "content/english/event"
     create: true
-    slug: "{{slug}}"
+    identifier_field: name
     media_folder: "/static/images/events"
     public_folder: "images/events"
     fields:
       - {label: "Judul Acara", name: "event", widget: "string"}
       - {label: "Tanggal Di Upload", name: "publishDate", widget: "datetime"}
       - {label: "Tanggal Acara", name: "date", widget: "datetime"}
-      - {label: "Masukkan Draft", name: "draft", widget: "boolean"}
+      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
       - {label: "Deskripsi", name: "description", widget: "string"}
       - {label: "Poster Untuk Event", name: "image", widget: "image"}
