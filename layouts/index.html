@@ -85,7 +85,7 @@
 <!-- /about us -->
 
 <!-- courses -->
-{{ if $data.homepage.course.enable }}
+{{ if $data.homepage.course.enable }} 
 <section class="section-sm">
   <div class="container">
     <div class="row">
@@ -94,7 +94,7 @@
           <h2 class="mb-0 text-nowrap mr-3">{{ $data.homepage.course.title }}</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
           <div>
-            <a href="{{ `course` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
+            <a href="{{ `pasar` | relLangURL }}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{{ i18n "see_all" }}</a>
           </div>
         </div>
       </div>
@@ -102,9 +102,9 @@
     <!-- course list -->
     <div class="row justify-content-center">
       <!-- course item -->
-      {{ range first 6 (where site.RegularPages "Type" "course")}}
+      {{ range first 3 (where site.RegularPages "Type" "course")}}
       <div class="col-lg-4 col-sm-6 mb-5">
-        {{ .Render "course" }}
+        {{ .Render "pasar" }}
       </div>
       {{ end }}
     </div>

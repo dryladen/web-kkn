@@ -33,7 +33,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Acara"
     folder: "content/english/event"
     create: true
-    slug: "{{year}}-{{month}}-{{slug}}"
+    slug: "{{slug}}"
     media_folder: "/static/images/events"
     public_folder: "images/events"
     fields:
