@@ -41,9 +41,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Harga", name: "fee", widget: "string"}
       - {label: "Link Pendaftaran", name: "apply_url", widget: "string"}
       - {label: "Tipe", name: "type", widget: "hidden", default: "event"}
-      - {label: "Pembicara", name: "speaker", widget: "list", fields: 
-        - {label: "Nama Pembicara", name: "name", widget: "string"}
-        - {label: "Gambar Pembicara", name: "image", widget: "string"}
-        - {label: "Gelar/Penamaan", name: "designation", widget: "string"}
-        }
+      - label: "Pembicara"
+        name: "speaker"
+        widget: "list"
+        fields: 
+          - {label: "Nama Pembicara", name: "name", widget: "string"}
+          - {label: "Gambar Pembicara", name: "image", widget: "string"}
+          - {label: "Gelar/Penamaan", name: "designation", widget: "string"}
+        
       - {label: "Body", name: "body", widget: "markdown"}
