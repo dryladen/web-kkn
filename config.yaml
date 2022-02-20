@@ -77,25 +77,25 @@ Languages:
         - name: Tentang
           url: about/
           weight: 1
-        - name: course
-          url: course/
+        - name: pasar
+          url: pasar/
           weight: 2
         - weight: 3
-          name: Pages
+          name: Lainnya
           hasChildren: true
-        - parent: Pages
+        - parent: Lainnya
           name: Staff
           url: staff/
-        - parent: Pages
+        - parent: Lainnya
           name: notice
           url: notice/
-        - parent: Pages
+        - parent: Lainnya
           name: event
           url: event/
-        - parent: Pages
+        - parent: Lainnya
           name: scholarship
           url: scholarship/
-        - parent: Pages
+        - parent: Lainnya
           name: research
           url: research/
         - name: blog
