@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
     media_folder: "/static/images/events"
     public_folder: "images/events"
     fields:
-      - {label: "Judul Acara", name: "event", widget: "string"}
+      - {label: "Judul Acara", name: "title", widget: "string"}
       - {label: "Tanggal Di Upload", name: "publishDate", widget: "datetime"}
       - {label: "Tanggal Acara", name: "date", widget: "datetime"}
       - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
@@ -52,7 +52,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: "list"
         fields: 
           - {label: "Nama Pembicara", name: "name", widget: "string"}
-          - {label: "Gambar Pembicara", name: "image", widget: "string"}
+          - {label: "Gambar Pembicara", name: "image", widget: "image"}
           - {label: "Gelar/Penamaan", name: "designation", widget: "string"}
         
       - {label: "Body", name: "body", widget: "markdown"}
