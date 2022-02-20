@@ -2,7 +2,7 @@
 title: Ganja lagi
 publishDate: 2022-02-20T08:00:45.346Z
 date: 2022-02-20T08:00:45.369Z
-draft: true
+draft: false
 bg_image: images/events/event-1.jpg
 description: Mari mengenal Ganja
 image: images/events/event-2.jpg
