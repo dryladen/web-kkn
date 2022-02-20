@@ -1,6 +1,6 @@
 ---
 title: Minggu bersih
-publishDate: 2019-01-01T00:00:00Z
+publishDate: 2019-01-01T00:00:00.000Z
 date: 2030-03-09T15:27:17+06:00
 draft: false
 bg_image: images/events/gotong-royong.jpg
@@ -12,7 +12,10 @@ fee: FREE
 apply_url: Join US
 type: event
 location: Labu Siam
-speaker: []
+speaker:
+  - name: Syahril
+    image: images/events/event-3.jpg
+    designation: Mr Cleaner
 ---
 
 ### About Event
