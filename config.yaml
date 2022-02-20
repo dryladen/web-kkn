@@ -7,18 +7,18 @@ disableLanguages: []
 params:
   plugins:
     css:
-      - link: plugins/bootstrap/bootstrap.min.css
-      - link: plugins/slick/slick.css
-      - link: plugins/animate/animate.css
-      - link: plugins/venobox/venobox.css
-      - link: plugins/themify-icons/themify-icons.css
+      - link: /plugins/bootstrap/bootstrap.min.css
+      - link: /plugins/slick/slick.css
+      - link: /plugins/animate/animate.css
+      - link: /plugins/venobox/venobox.css
+      - link: /plugins/themify-icons/themify-icons.css
     js:
-      - link: plugins/jQuery/jquery.min.js
-      - link: plugins/bootstrap/bootstrap.min.js
-      - link: plugins/slick/slick.min.js
-      - link: plugins/venobox/venobox.min.js
-      - link: plugins/filterizr/jquery.filterizr.min.js
-      - link: plugins/google-map/gmap.js
+      - link: /plugins/jQuery/jquery.min.js
+      - link: /plugins/bootstrap/bootstrap.min.js
+      - link: /plugins/slick/slick.min.js
+      - link: /plugins/venobox/venobox.min.js
+      - link: /plugins/filterizr/jquery.filterizr.min.js
+      - link: /plugins/google-map/gmap.js
   logo: images/logo.png
   description: This is meta description
   author: Themefisher

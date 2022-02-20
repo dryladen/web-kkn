@@ -18,7 +18,7 @@
 
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range site.Params.plugins.css }}
-  <link rel="stylesheet" href="{{ .link | absURL }}">
+  <link rel="stylesheet" href="{{ .link }}">
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
@@ -28,6 +28,5 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-  <link rel="stylesheet" href="/css/style.css">
 
 </head>
