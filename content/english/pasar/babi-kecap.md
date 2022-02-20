@@ -4,7 +4,7 @@ publishDate: 2022-02-20T13:02:26.230Z
 draft: false
 bg_image: images/courses/course-6.jpg
 description: Babi kecap terlezat di Samarinda
-image: images/courses/course-3.jpg
+image: images/courses/babi-kecap.jfif
 fee: "15.000"
 apply_url: "081329467290"
 type: pasar
