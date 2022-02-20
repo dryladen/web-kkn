@@ -3,13 +3,13 @@ backend:
   branch: main
 
 publish_mode: editorial_workflow
-media_folder: "exampleSite/static/images/uploads"
+media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "blog"
     label: "Blog Artikel"
-    folder: "exampleSite/content/english/blog"
+    folder: "content/english/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "acara"
     label: "Acara"
-    folder: "exampleSite/content/english/event"
+    folder: "content/english/event"
     create: true
     slug: "{{year}}-{{month}}-{{slug}}"
     fields:
