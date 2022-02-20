@@ -84,7 +84,7 @@ Languages:
           name: Lainnya
           hasChildren: true
         - parent: Lainnya
-          name: Staff
+          name: Staf
           url: staff/
         - parent: Lainnya
           name: notice
@@ -101,7 +101,7 @@ Languages:
         - name: blog
           url: blog/
           weight: 4
-        - name: Contact
+        - name: Kontak
           url: contact/
           weight: 5
       footer:

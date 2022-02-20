@@ -47,6 +47,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Harga", name: "fee", widget: "string"}
       - {label: "Link Pendaftaran", name: "apply_url", widget: "string"}
       - {label: "Tipe", name: "type", widget: "hidden", default: "event"}
+      - {label: "Lokasi", name: "location", widget: "string"}
       - label: "Pembicara"
         name: "speaker"
         widget: "list"
@@ -54,5 +55,32 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Nama Pembicara", name: "name", widget: "string"}
           - {label: "Gambar Pembicara", name: "image", widget: "image"}
           - {label: "Gelar/Penamaan", name: "designation", widget: "string"}
+        
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "pasar"
+    label: "Pasar"
+    folder: "content/english/pasar"
+    create: true
+    identifier_field: name
+    media_folder: "/static/images/courses"
+    public_folder: "images/courses"
+    fields:
+      - {label: "Nama Dagangan", name: "title", widget: "string"}
+      - {label: "Tanggal Di Upload", name: "publishDate", widget: "datetime"}
+      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Deskripsi", name: "description", widget: "string"}
+      - {label: "Poster Untuk Dagangan", name: "image", widget: "image"}
+      - {label: "Harga", name: "fee", widget: "string"}
+      - {label: "Kontak", name: "apply_url", widget: "string"}
+      - {label: "Tipe", name: "type", widget: "hidden", default: "pasar"}
+      - {label: "Lokasi", name: "location", widget: "string"}
+      - label: "Penjual"
+        name: "speaker"
+        widget: "list"
+        fields: 
+          - {label: "Nama Penjual", name: "name", widget: "string"}
+          - {label: "Gambar Pembicara", name: "image", widget: "image"}
         
       - {label: "Body", name: "body", widget: "markdown"}
