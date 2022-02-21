@@ -83,3 +83,29 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Gambar Pembicara", name: "image", widget: "image"}
         
       - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "staf"
+    label: "Staff"
+    folder: "content/english/staff"
+    create: true
+    identifier_field: name
+    media_folder: "/static/images/teachers"
+    public_folder: "images/teachers"
+    fields:
+      - {label: "Nama Staf", name: "title", widget: "string"}
+      - {label: "Tanggal Di Upload", name: "publishDate", widget: "datetime"}
+      - {label: "Masukkan Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+      - {label: "Gambar", name: "image", widget: "image"}
+      - {label: "Role", name: "course", widget: "string"}
+      - {label: "Bio", name: "course", widget: "string"}
+      - {label: "Tipe", name: "type", widget: "hidden", default: "staff"}
+      - label: "Kontak"
+        name: "speaker"
+        widget: "list"
+        fields: 
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "image"}
+          - {label: "Link url", name: "link", widget: "string"}
+        
+      - {label: "Body", name: "body", widget: "markdown"}
