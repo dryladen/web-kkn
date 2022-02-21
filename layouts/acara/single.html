@@ -20,7 +20,7 @@
             <div class="d-flex align-items-center">
               <i class="ti-location-pin text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">{{ i18n "location" | upper}}</h6>
+                <h6 class="mb-0">{{ "Tempat" | upper}}</h6>
                 <p class="mb-0">{{ .Params.Location | markdownify }}</p>
               </div>
             </div>
@@ -29,7 +29,7 @@
             <div class="d-flex align-items-center">
               <i class="ti-calendar text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">{{ i18n "date" | upper}}</h6>
+                <h6 class="mb-0">{{ "Tanggal" | upper}}</h6>
                 <p class="mb-0">{{ .Date.Format "02 Jan, 2006"}}</p>
               </div>
             </div>
@@ -38,7 +38,7 @@
             <div class="d-flex align-items-center">
               <i class="ti-time text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">{{ i18n "time" | upper }}</h6>
+                <h6 class="mb-0">{{ "Waktu" | upper }}</h6>
                 <p class="mb-0">{{ .Date.Format "15:04 MST"}}</p>
               </div>
             </div>
@@ -47,7 +47,7 @@
             <div class="d-flex align-items-center">
               <i class="ti-wallet text-primary icon-md mr-2"></i>
               <div class="text-left">
-                <h6 class="mb-0">{{ i18n "entry_fee" | upper }}</h6>
+                <h6 class="mb-0">{{ "Biaya" | upper }}</h6>
                 <p class="mb-0">{{ .Params.Fee | markdownify }}</p>
               </div>
             </div>
@@ -55,7 +55,7 @@
         </ul>
       </div>
       <div class="col-lg-3 text-lg-right text-left">
-        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
+        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ string "Daftar Sekarang" }}</a>
       </div>
       <!-- border -->
       <div class="col-12 mt-4 order-4">
@@ -69,12 +69,13 @@
       </div>
     </div>
     <!-- event speakers -->
+    {{ with .Params.Speaker }}
     <div class="row">
       <div class="col-12">
         <h3 class="mb-4">{{ i18n "event_speaker"}}</h3>
       </div>
       <!-- speakers -->
-      {{ range .Params.Speaker }}
+      {{ range . }}
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="media">
          {{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}
@@ -90,6 +91,7 @@
         <div class="border-bottom border-primary"></div>
       </div>
     </div>
+    {{ end }}
   </div>
 </section>
 <!-- /event single -->
@@ -104,10 +106,10 @@
     </div>
     <div class="row justify-content-center">
       <!-- event -->
-      {{ $related := (where site.RegularPages "Type" "event") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ $related := (where site.RegularPages "Type" "acara") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-        {{ .Render "event" }}
+        {{ .Render "acara" }}
       </div>
       {{ end }}
     </div>
