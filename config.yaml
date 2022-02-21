@@ -18,7 +18,7 @@ params:
       - link: /plugins/slick/slick.min.js
       - link: /plugins/venobox/venobox.min.js
       - link: /plugins/filterizr/jquery.filterizr.min.js
-      - link: /plugins/google-map/gmap.js
+      # - link: /plugins/google-map/gmap.js
   logo: images/logo.png
   description: This is meta description
   author: Themefisher
@@ -37,7 +37,7 @@ params:
       https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
     mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074
   map:
-    enable: true
+    enable: false
     gmap_api: >-
       https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
     map_latitude: '-0.4269341976387936'
