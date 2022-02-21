@@ -2,25 +2,17 @@
 title: "Kue Sus"
 date: 2019-07-06T15:27:17+06:00
 draft: false
-# page title background image
 bg_image: "images/backgrounds/page-title.jpg"
-# meta description
 description : "Kue buatan bude Sumiati enak banget lohh"
-# course thumbnail
 image: "images/courses/kue-sus.jpg"
-# taxonomy
-category: "Rp. 20.000"
-# teacher
-teacher: "Clark Malik"
-# duration
-duration : "06 Month"
-# weekly
-weekly : "03 hours"
-# course fee
+location: "Jln. Timur"
+seller: "Ibu Sumiati"
+duration : "07:00 - 15:00"
+open : "Senin - Sabtu"
+wa: "+6282326785504"
+message: "Hallo, apakah Susnya masih ada?"
 fee : "Rp. 20.000"
-# apply url
 apply_url : "#"
-# type
 type: "pasar"
 ---
 
