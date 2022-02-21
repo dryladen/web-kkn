@@ -80,15 +80,19 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Tipe", name: "type", widget: "hidden", default: "pasar"}
       - {label: "Body", name: "body", widget: "markdown"}
   
-  - name: "staff"
-    label: "Staff"
-    folder: "content/english/staff"
-    create: true
-    identifier_field: name
-    media_folder: "/static/images/teachers"
-    public_folder: "images/teachers"
-    fields:
-      - {label: "Nama Staf", name: "title", widget: "string"}
-      - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
-      - {label: "Deskripsi", name: "description", widget: "hidden"}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "staff"
+  #   label: "Staff"
+  #   folder: "content/english/staff"
+  #   create: true
+  #   identifier_field: name
+  #   media_folder: "/static/images/teachers"
+  #   public_folder: "images/teachers"
+  #   fields:
+  #     - {label: "Nama Staf", name: "title", widget: "string"}
+  #     - {label: "Gambar Latar Belakang", name: "bg_image", widget: "image"}
+  #     - {label: "Deskripsi", name: "description", widget: "hidden"}
+  #     - {label: "Foto Staf", name: "image", widget: "image", default: "images/teachers/syahril.jpg"}
+  #     - {label: "Jabatan/Bagian", name: "course", widget: "string"}
+  #     - {label: "Bio", name: "bio", widget: "string"}
+  #     - {label: "Hobi", name: "interest", widget: "list"}
+  #     - {label: "Body", name: "body", widget: "markdown"}

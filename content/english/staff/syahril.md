@@ -29,9 +29,6 @@ contact:
   - name : "1313 Boulevard Cremazie,Quebec"
     icon : "ti-location-pin" # icon pack : https://themify.me/themify-icons
     link : "#"
-
-# type
-type: "staff"
 ---
 
 ### About Me
