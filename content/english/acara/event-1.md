@@ -10,7 +10,6 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 image: images/events/gotong-royong.jpg
 fee: FREE
 apply_url: Join US
-type: event
 location: Labu Siam
 speaker:
   - name: Syahril

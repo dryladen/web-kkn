@@ -21,7 +21,7 @@ fee : "Rp. 10.000"
 # apply url
 apply_url : "#"
 # type
-type: "course"
+type: "pasar"
 ---
 
 

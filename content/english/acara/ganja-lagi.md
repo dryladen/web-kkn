@@ -8,7 +8,6 @@ description: Mari mengenal Ganja
 image: images/events/event-2.jpg
 fee: FREE
 apply_url: Daftar disini
-type: event
 speaker:
   - name: Ipan
     image: images/events/event-3.jpg

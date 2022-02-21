@@ -40,8 +40,6 @@ speaker:
     image : "images/event-speakers/speaker-4.jpg"
     designation : "Teacher"
 
-# type
-type: "event"
 ---
 
 ### About Event

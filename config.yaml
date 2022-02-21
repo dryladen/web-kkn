@@ -91,7 +91,7 @@ Languages:
         #   url: notice/
         - parent: Lainnya
           name: Acara Lokal
-          url: event/
+          url: acara/
         # - parent: Lainnya
         #   name: scholarship
         #   url: scholarship/
