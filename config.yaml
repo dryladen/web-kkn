@@ -92,6 +92,9 @@ Languages:
         - parent: Lainnya
           name: Acara Lokal
           url: acara/
+        - parent: Lainnya
+          name: Admin
+          url: admin/
         # - parent: Lainnya
         #   name: scholarship
         #   url: scholarship/
