@@ -5,7 +5,7 @@ draft: false
 bg_image: images/courses/course-6.jpg
 description: Babi kecap terlezat di Samarinda
 image: images/courses/babi-kecap.jfif
-fee: "15.000"
+fee: "Rp. 15.000"
 apply_url: "081329467290"
 type: pasar
 location: Gg. Ini itu
