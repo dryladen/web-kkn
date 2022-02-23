@@ -84,17 +84,20 @@ Languages:
           name: Lainnya
           hasChildren: true
         - parent: Lainnya
-          name: Staf
-          url: staff/
-        # - parent: Lainnya
-        #   name: notice
-        #   url: notice/
-        - parent: Lainnya
           name: Acara Lokal
           url: acara/
+          weight: 1
+        - parent: Lainnya
+          name: Staf
+          url: staff/
+          weight: 2
         - parent: Lainnya
           name: Admin
           url: admin/
+          weight: 3
+        # - parent: Lainnya
+        #   name: notice
+        #   url: notice/
         # - parent: Lainnya
         #   name: scholarship
         #   url: scholarship/
