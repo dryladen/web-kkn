@@ -19,12 +19,12 @@
 
 <!-- funfacts -->
 {{ if $data.homepage.funfacts.enable }}
-{{ with $data.homepage.funfacts }}
+{{ with .Params.village_data }}
 <section class="section-sm bg-primary">
   <div class="container">
     <div class="row">
       <!-- funfacts item -->
-      {{ range .funfact_item }}
+      {{ range . }}
       <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
         <div class="text-center">
           <h2 class="count text-white" data-count="{{ .count }}">0</h2>
