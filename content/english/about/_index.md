@@ -1,5 +1,5 @@
 ---
-title: "About Us"
+title: "Tentang Desa"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/samarinda-land.jpg"
@@ -8,21 +8,17 @@ image: "images/about/about-page.jpg"
 # meta description
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 village_data:
-  # funfact item loop
   - name : "Warga"
-    count : "100"
-  
-  # funfact item loop
+    count : 100
+
   - name : "Kepala Keluarga"
-    count : "112"
+    count : 112
 
-  # funfact item loop
   - name : "Sekolah"
-    count : "10"
+    count : 10
 
-  # funfact item loop
-  - name : "Luas Wilayah"
-    count : "140Km"
+  - name : "Anak Muda"
+    count : 140
 ---
 
 ## Tentang Desa Ini
