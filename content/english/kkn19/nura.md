@@ -1,14 +1,14 @@
 ---
-title: "Syahril"
+title: "Nur Aisyah"
 draft: false
-weight: 5
+weight: 7
 bg_image: "images/kkn19/kkn-bg.jpeg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 image: "images/teachers/syahril.jpg"
-course: Informatika
-job: Publikasi dan Dokumentasi
-bio: "Syahril the bartender"
-interest: ["Tour Guy","Bartender","Human Computer Interfacing"]
+course: Sistem Informasi
+job: "Konsumsi"
+bio: "Nilda the Leader"
+interest: ["Tour Guy", "Human Computer Interfacing"]
 contact:
   facebook:
     username: "syahril"
@@ -32,4 +32,4 @@ contact:
 
 ### About Me
 
-Saya adalah bartender terbaik di Samarinda, sebutkan saja ingin rasa seperti apa akan ku buatkan racikannya
+Nilda Amriani

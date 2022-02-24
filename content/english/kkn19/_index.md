@@ -1,8 +1,8 @@
 ---
-title: "Kuliah Kerja Nyata Angkatan 2019"
+title: "KKN Angkatan 2019"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/page-title.jpg"
+bg_image: "images/kkn19/kkn-bg.jpeg"
 # meta description
-description : "Berikut adalah kumpulan staf - staf yang berkerja dibelakang layar"
+description : "Anggota Kuliah Kerja Nyata Kelompok 26"
 ---
