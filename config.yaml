@@ -95,15 +95,6 @@ Languages:
           name: Admin
           url: admin/
           weight: 3
-        # - parent: Lainnya
-        #   name: notice
-        #   url: notice/
-        # - parent: Lainnya
-        #   name: scholarship
-        #   url: scholarship/
-        # - parent: Lainnya
-        #   name: research
-        #   url: research/
         - name: blog
           url: blog/
           weight: 4
@@ -113,11 +104,9 @@ Languages:
       footer:
         - name: staff
           url: staff/
-        - name: notice
-          url: notice/
-        - name: event
-          url: event/
-        - name: scholarship
-          url: scholarship/
-        - name: research
-          url: research/
+        - name: Acara
+          url: acara/
+        - name: Admin
+          url: admin/
+        - name: KKN
+          url: kkn19/
