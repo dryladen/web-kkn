@@ -4,7 +4,7 @@ draft: false
 weight: 7
 bg_image: "images/kkn19/kkn-bg.jpeg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
-image: "images/teachers/syahril.jpg"
+image: "images/kkn19/nura-thumbnail.jpeg"
 course: Sistem Informasi
 job: "Konsumsi"
 bio: "Nilda the Leader"
