@@ -1,6 +1,7 @@
 {
   "name": "Bengkuring RT 32",
   "short_name": "bengkuringrt32",
+  "description": "Website Profile Warga RT 32, Sempaja Timur",
   "icons": [
     {
       "src": "/images/icons/favicon-128.png",
@@ -24,7 +25,7 @@
     },
     {
       "src": "/images/splash.png",
-      "sizes": "512x512",
+      "sizes": "200x206",
       "type": "image/png"
     }
   ],
@@ -32,5 +33,5 @@
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FFFFFF",
-  "theme_color": "#65a25eff"
+  "theme_color": "#1a1a37"
 }
