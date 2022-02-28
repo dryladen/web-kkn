@@ -6,7 +6,7 @@ bg_image: "images/kkn19/kkn-bg.jpeg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 image: "images/kkn19/syahril-thumbnail.jpeg"
 course: Informatika
-job: Publikasi dan Dokumentasi
+job: Publikasi, Dekorasi, dan Dokementasi
 bio: "Syahril the bartender"
 interest: ["Tour Guy","Bartender","Human Computer Interfacing"]
 contact:

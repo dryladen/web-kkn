@@ -6,7 +6,7 @@ bg_image: "images/kkn19/kkn-bg.jpeg"
 description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
 image: "images/kkn19/okta-thumbnail.jpeg"
 course: Informatika
-job: "Humas dan Acara"
+job: "Media dan Informasi"
 bio: "Nilda the Leader"
 interest: ["Tour Guy", "Human Computer Interfacing"]
 contact:
