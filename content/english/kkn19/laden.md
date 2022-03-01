@@ -3,7 +3,7 @@ title: "Delfan Rynaldo Laden"
 draft: false
 weight: 6
 bg_image: "images/kkn19/kkn-bg.jpg"
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Fakap boy"
 image: "images/kkn19/laden-thumbnail.jpeg"
 course: Informatika
 job: "Publikasi, Dekorasi, dan Dokumentasi"
@@ -13,11 +13,11 @@ contact:
   facebook:
     username: "Delfan Rynaldo Laden"
     enable: false
-    link: "https://facebook.com"
+    link: "https://facebook.com/"
   instagram:
     username: dryladen_
     enable: true
-    link: "https://www.instagram.com/dryladen_/"
+    link: "https://www.instagram.com/"
   email: 
     username: "delfanladen@gmail.com"
     enable: true
@@ -25,7 +25,7 @@ contact:
   github:
     username: "dryladen" 
     enable: true
-    link: "https://github.com/dryladen"
+    link: "https://github.com/"
 ---
 
 ### Proker Individu

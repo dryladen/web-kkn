@@ -3,33 +3,35 @@ title: "Oktavian Yoga Syahputra"
 draft: false
 weight: 8
 bg_image: "images/kkn19/kkn-bg.jpg"
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "No Lef"
 image: "images/kkn19/okta-thumbnail.jpeg"
 course: Informatika
 job: "Media dan Informasi"
-bio: "Nilda the Leader"
-interest: ["Tour Guy", "Human Computer Interfacing"]
+bio: "Beban Keluarga"
+interest: ["Modern Web App", "Automation App"]
 contact:
   facebook:
     username: "syahril"
-    enable: true
-    link: "https://facebook.com"
+    enable: false
+    link: "https://facebook.com/"
   instagram:
-    username: syahril
+    username: "yogatra29"
     enable: true
-    link: "https://instagram.com"
+    link: "https://instagram.com/"
   email: 
-    username: "syahril@gmail.com"
+    username: "okta.yoga.syah@gmail.com"
     enable: true
     link: "mailto:"
   github:
-    username: "syahril" 
+    username: "oktoala" 
     enable: true
-    link: "https://github.com"
+    link: "https://github.com/"
 
 
 ---
 
-### About Me
+### Proker Individu
 
-Nilda Amriani
++ Tata cara penggunaan website profil RT bagian blog
++ Les Bahasa Inggris
++ Cara membuat jadwal di Google Calendar
