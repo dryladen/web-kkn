@@ -11,7 +11,7 @@ public_folder: "/images"
 collections: # A list of collections the CMS should be able to edit
   - name: "acara"
     label: "Acara"
-    folder: "content/english/acara"
+    folder: "content/acara"
     create: true
     identifier_field: name
     media_folder: "/static/images/events"
@@ -39,7 +39,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "blog"
     label: "Blog Artikel"
-    folder: "content/english/blog"
+    folder: "content/blog"
     create: true
     identifier_field: name
     media_folder: "/static/images/blog/"
@@ -59,7 +59,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "pasar"
     label: "Pasar"
-    folder: "content/english/pasar"
+    folder: "content/pasar"
     create: true
     identifier_field: name
     media_folder: "/static/images/courses"
@@ -82,7 +82,7 @@ collections: # A list of collections the CMS should be able to edit
   
   - name: "tentang"
     label: "Tentang"
-    folder: "content/english/about"
+    folder: "content/about"
     create: false
     identifier_field: name
     media_folder: "/static/images/about"
