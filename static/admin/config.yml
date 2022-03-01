@@ -52,7 +52,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Penulis", name: "author", widget: "string", default: "John Doe"}
       - {label: "Kategori", name: "kategori", widget: "string"}
       - {label: "Topik", name: "topik", widget: "list"}
-      - {label: "Type", name: "post", widget: "hidden", default: "post"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Gambar", name: "image", widget: "image", default: "images/blog/post-1.jpg"}
       - {label: "Deskripsi", name: "dscription", widget: "string", default: "Ini adalah deskripsi"}
       - {label: "Isi Artikel", name: "body", widget: "markdown"}
