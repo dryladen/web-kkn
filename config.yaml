@@ -4,6 +4,7 @@ paginate: '6'
 summaryLength: '10'
 disqusShortname: educenter
 disableLanguages: []
+enableRobotsTXT: true
 params:
   plugins:
     css:
