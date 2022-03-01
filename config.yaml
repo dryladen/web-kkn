@@ -25,7 +25,7 @@ params:
   address: 9567 Turner Trace Apt. BC C3G8A4
   mobile: '+211234565523'
   email: info@educenter.com
-  contact_form_action: '#'
+  contact_form_action: '/contact'
   google_analitycs_id: ''
   top_header: false
   preloader:
