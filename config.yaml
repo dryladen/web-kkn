@@ -125,3 +125,5 @@ Languages:
           url : "https://app.netlify.com/sites/rt32bengkuring/overview"
         - name: Forestry (Admin)
           url : "https://app.forestry.io/sites/54h9udufzrvucq/"
+        - name: Disqus (Komentar)
+          url: "https://rt32bengkuring.disqus.com/admin/settings/general/"
