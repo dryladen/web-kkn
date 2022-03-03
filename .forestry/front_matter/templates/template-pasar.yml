@@ -1,0 +1,46 @@
+---
+label: Template Pasar
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: bg_image
+  label: bg_image
+- type: text
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: text
+  name: location
+  label: location
+- type: text
+  name: seller
+  label: seller
+- type: text
+  name: duration
+  label: duration
+- type: text
+  name: open
+  label: open
+- type: text
+  name: wa
+  label: wa
+- type: text
+  name: message
+  label: message
+- type: text
+  name: fee
+  label: fee
+- type: text
+  name: apply_url
+  label: apply_url
+- type: text
+  name: type
+  label: type
