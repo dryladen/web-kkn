@@ -4,39 +4,26 @@ hide_body: true
 fields:
 - type: text
   name: baseURL
-  label: baseURL
+  label: URL
 - type: text
   name: title
-  label: title
+  label: Nama Website
 - type: text
   name: paginate
-  label: paginate
+  label: Jumlah Kontent Per Halaman
 - type: text
   name: summaryLength
-  label: summaryLength
+  label: Panjang Deskripsi
 - type: text
   name: disqusShortname
-  label: disqusShortname
-- type: list
-  name: disableLanguages
-  label: disableLanguages
+  label: Shortname untuk Disqus
 - type: boolean
   name: enableRobotsTXT
-  label: enableRobotsTXT
+  label: Aktifkan Robot Txt
 - type: field_group
   name: params
-  label: params
+  label: Parameter
   fields:
-  - type: field_group
-    name: instagrams
-    label: instagrams
-    fields:
-    - type: text
-      name: appId
-      label: appId
-    - type: text
-      name: clientToken
-      label: clientToken
   - type: field_group
     name: plugins
     label: plugins
