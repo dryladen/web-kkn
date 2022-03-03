@@ -103,7 +103,7 @@ Languages:
           # Lainnya ->  Admin
         - parent: Lainnya
           name: Admin
-          url: admin/
+          url: "https://app.forestry.io/sites/54h9udufzrvucq/"
           weight: 3
         - name: blog
           url: blog/
@@ -117,7 +117,7 @@ Languages:
         - name: Acara
           url: acara/
         - name: Admin
-          url: admin/
+          url: "https://app.forestry.io/sites/54h9udufzrvucq/"
         - name: KKN
           url: kkn19/
       helper:
