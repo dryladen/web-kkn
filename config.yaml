@@ -6,6 +6,9 @@ disqusShortname: educenter
 disableLanguages: []
 enableRobotsTXT: true
 params:
+  instagrams:
+    appId: ""
+    clientToken: ""
   plugins:
     css:
       - link: /plugins/bootstrap/bootstrap.min.css
@@ -117,3 +120,6 @@ Languages:
           url: admin/
         - name: KKN
           url: kkn19/
+      helper:
+        - name: Netlify
+          url : "https://app.netlify.com/sites/bengkuring-rt32/overview"
