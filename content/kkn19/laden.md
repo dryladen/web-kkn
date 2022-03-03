@@ -3,7 +3,7 @@ title: Delfan Rynaldo Laden
 weight: "6"
 bg_image: images/kkn19/kkn-bg.jpg
 description: Fakap boy
-image: images/kkn19/foto-alma.jpeg
+image: "/images/foto-alma.jpeg"
 course: Informatika
 job: Publikasi, Dekorasi, dan Dokumentasi
 bio: Tadow
