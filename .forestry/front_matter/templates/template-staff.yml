@@ -4,35 +4,30 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Nama Staff
 - type: file
   name: bg_image
-  label: bg_image
+  label: Gambar Latar Belakang
+  default: "/banner/banner-samarinda-river.jpg"
 - type: textarea
   name: description
-  label: description
+  label: Deskripsi
+  config:
+    wysiwyg: false
+    schema:
+      format: markdown
+  default: Deskripsi
 - type: file
   name: image
-  label: image
+  label: Foto Profil
+  default: "/splash.png"
 - type: text
   name: course
-  label: course
+  label: Jabatan / Peran
 - type: textarea
   name: bio
-  label: bio
+  label: Biografi
+  default: ''
 - type: list
   name: interest
-  label: interest
-- type: field_group_list
-  name: contact
-  label: contact
-  fields:
-  - type: text
-    name: name
-    label: name
-  - type: text
-    name: icon
-    label: icon
-  - type: text
-    name: link
-    label: link
+  label: Hobi / Keahlian
