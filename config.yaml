@@ -2,7 +2,7 @@ baseURL: 'rt32bengkuring.netlify.app'
 title: "Bengkuring RT 32"
 paginate: '6'
 summaryLength: '10'
-disqusShortname: educenter
+disqusShortname: rt32bengkuring
 disableLanguages: []
 enableRobotsTXT: true
 params:
@@ -123,4 +123,5 @@ Languages:
       helper:
         - name: Netlify
           url : "https://app.netlify.com/sites/rt32bengkuring/overview"
-        
+        - name: Forestry (Admin)
+          url : "https://app.forestry.io/sites/54h9udufzrvucq/"
