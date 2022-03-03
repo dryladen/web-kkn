@@ -44,7 +44,7 @@ sections:
   label: Data
   create: all
   match: "**/*"
-upload_dir: static
+upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: true
