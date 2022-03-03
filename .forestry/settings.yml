@@ -4,15 +4,10 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: document
-  path: confing.yaml
-  label: Konfigurasi
-  match: "**/*"
-  read_only: false
 - type: directory
-  path: data
-  label: Data
-  create: all
+  path: content/about
+  label: Tentang
+  create: none
   match: "**/*"
 - type: directory
   path: content/staff
@@ -39,9 +34,14 @@ sections:
   label: Acara
   create: all
   match: "**/*"
+- type: heading
+  label: Konfigurasi
+- type: document
+  path: confing.yaml
+  label: Konfigurasi
 - type: directory
-  path: content/about
-  label: About
+  path: data
+  label: Data
   create: all
   match: "**/*"
 upload_dir: static/images
