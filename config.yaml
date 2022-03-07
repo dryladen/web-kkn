@@ -1,4 +1,4 @@
-baseURL: 'rt32bengkuring.netlify.app'
+baseURL: 'rt32bengkuring.com'
 title: "Bengkuring RT 32"
 paginate: '6'
 summaryLength: '10'
@@ -100,11 +100,6 @@ Languages:
           weight: 2
           name: Staf
           url: staff/
-          # Lainnya ->  Admin
-        - parent: Lainnya
-          name: Admin
-          url: /admin
-          weight: 3
         - name: blog
           url: blog/
           weight: 3
@@ -121,9 +116,18 @@ Languages:
         - name: KKN
           url: kkn19/
       helper:
-        - name: Netlify
-          url : "https://app.netlify.com/sites/rt32bengkuring/overview"
         - name: Forestry (Admin)
           url : "https://app.forestry.io/sites/54h9udufzrvucq/"
+          weight: 1
+        - name: Netlify CMS (Admin)
+          url : "/admin"
+          weight: 2
+        - name: Netlify
+          url : "https://app.netlify.com/sites/rt32bengkuring/overview"
+          weight: 3
         - name: Disqus (Komentar)
           url: "https://rt32bengkuring.disqus.com/admin/settings/general/"
+          weight: 4
+        - name: NiagaHoster (Domain)
+          url: "https://panel.niagahoster.co.id/client"
+          weight: 5
