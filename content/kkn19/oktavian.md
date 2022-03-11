@@ -38,4 +38,3 @@ contact:
 
 ### 2. Les Bahasa Inggris
 ### 3. Cara membuat jadwal di Google Calendar
-IGQVJWdzZAkZAjBGa19FWXF5bGt6eEhuVHJuMGphM0NEamNITS1KS3hZAQVpMa1ZArYzhVOTFPVWVkSXVrS3RKSDhzamhldHVOMlNVNXg2VGlyY1ZAuRDQ5bTRCRUdWTHlnWkJXdHpKeXNlSXYtN1lkMjVpbwZDZD

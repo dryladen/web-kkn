@@ -1,5 +1,5 @@
 ---
-title: "KKN Tematik Teknik "
+title: "KKNT Teknik "
 draft: false
 # page title background image
 bg_image: "images/kkn19/kkn-bg.jpg"

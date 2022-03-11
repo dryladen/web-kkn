@@ -19,10 +19,10 @@
       </div>
     </div>
     <!-- teacher list -->
-    <div class="row filtr-container">
+    <div class="row filtr-container mx-0">
       <!-- teacher -->
       {{ range .Data.Pages }}
-      <div data-category="{{ .Params.Course | urlize }}" class="col-lg-4 col-sm-6 filtr-item mb-5" >
+      <div data-category="{{ .Params.Course | urlize }}" class="col-lg-4 col-sm-6 filtr-item mb-5 " >
         {{ .Render "kkn19" }}
       </div>
       {{ end }}

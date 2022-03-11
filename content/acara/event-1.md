@@ -11,10 +11,7 @@ image: images/events/gotong-royong.jpg
 fee: FREE
 apply_url: "#" 
 location: Labu Siam
-speaker:
-  - name: Syahril
-    image: images/events/event-3.jpg
-    designation: Mr Cleaner
+
 ---
 
 ### About Event
