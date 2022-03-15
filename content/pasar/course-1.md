@@ -1,22 +1,19 @@
 ---
-title: "Kue Sus"
-date: 2019-07-06T15:27:17+06:00
-draft: false
-bg_image: "images/backgrounds/page-title.jpg"
-description : "Kue buatan bude Sumiati enak banget lohh"
-image: "images/courses/kue-sus.jpg"
-location: "Jln. Timur"
-seller: "Ibu Sumiati"
-duration : "07:00 - 15:00"
-open : "Senin - Sabtu"
+title: Kue Sus
+date: 2019-07-06T15:27:17.000+06:00
+bg_image: images/backgrounds/page-title.jpg
+description: Kue buatan bude Sumiati enak banget lohh
+image: images/courses/kue-sus.jpg
+location: Jln. Timur
+seller: Ibu Sumiati
+duration: 07:00 - 15:00
+open: Senin - Sabtu
 wa: "+628123456789"
-message: "Hallo, apakah Susnya masih ada?"
-fee : "Rp. 20.000"
-apply_url : "#"
-type: "pasar"
+message: Hallo, apakah Susnya masih ada?
+fee: Rp. 20.000
+apply_url: "#"
+
 ---
-
-
 ### About Course
 
 Kue buatan bude Sumiati enak banget lohh</p>
