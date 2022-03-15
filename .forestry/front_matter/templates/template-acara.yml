@@ -4,28 +4,30 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Nama Acara
+  config:
+    required: true
 - type: datetime
   name: publishDate
-  label: publishDate
+  label: Tanggal Dipublish
 - type: datetime
   name: date
-  label: date
+  label: Tanggal Acara
 - type: file
   name: bg_image
-  label: bg_image
+  label: Gambar Latar Belakang
 - type: textarea
   name: description
-  label: description
+  label: Deskripsi
 - type: file
   name: image
-  label: image
+  label: Gambar Thumbnail
 - type: text
   name: fee
-  label: fee
+  label: Harga
 - type: text
   name: apply_url
-  label: apply_url
+  label: Link Pendaftaran
 - type: text
   name: location
-  label: location
+  label: Lokasi
