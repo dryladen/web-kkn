@@ -1,10 +1,7 @@
 ---
-title: "Kontak"
-draft: false
-# page title background image
-bg_image: "images/backgrounds/page-title.jpg"
-# meta description
-description : "Hah"
----
+title: Kontak
+bg_image: images/backgrounds/page-title.jpg
+description: Ini adalah halaman kontak
 
+---
 Ini adalah halaman kontak, yang dimana warga bisa menghubungi staf ataupun memberikan aspirasi melalui website.
