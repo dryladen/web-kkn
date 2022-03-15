@@ -31,3 +31,5 @@ fields:
 - type: text
   name: location
   label: Lokasi
+pages:
+- content/acara/event-1.md
