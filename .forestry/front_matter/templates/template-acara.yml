@@ -30,3 +30,5 @@ fields:
 - type: text
   name: location
   label: Lokasi
+pages:
+- content/acara/senam-pagi.md
