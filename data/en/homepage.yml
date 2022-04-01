@@ -122,8 +122,8 @@ funfacts:
       count : "112"
 
     # funfact item loop
-    - name : "Sekolah"
-      count : "10"
+    - name : "Rumah Ibadah"
+      count : "1"
 
     # funfact item loop
     - name : "Luas Wilayah"
@@ -138,3 +138,6 @@ blog:
   enable : true
   title : "Artikel Terbaru"
   # blog item comes from "content/**/blog" folder.
+
+staf:
+  enable: false
