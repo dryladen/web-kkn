@@ -8,6 +8,7 @@ fields:
 - type: datetime
   name: publishDate
   label: Tanggal Rilis
+  default: now
 - type: datetime
   name: date
   label: Tanggal Acara
