@@ -6,3 +6,10 @@ bg_image: "images/kkn19/kkn-bg.jpg"
 # meta description
 description : "Anggota Kuliah Kerja Nyata Kelompok 26 Angkatan ke-48"
 ---
+
+## Proker Kelompok
+
+
+
+### 1. Bakti Sosial
+

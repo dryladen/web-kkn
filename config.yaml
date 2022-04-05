@@ -5,6 +5,7 @@ summaryLength: '10'
 disqusShortname: rt32bengkuring
 disableLanguages: []
 enableRobotsTXT: true
+metaDataFormat: "yaml"
 params:
   instagrams:
     appId: ""

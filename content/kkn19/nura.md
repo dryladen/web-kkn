@@ -37,3 +37,7 @@ Halo
 ### 1. Poster 5-M Covid
 
 ![Makan](/images/kkn19/poster-5m.png)
+
+### 2. Poster Edukasi terkait penipuan online
+
+![Penipuan](/images/kkn19/poster-penipuan.png)

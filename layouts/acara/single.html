@@ -9,7 +9,8 @@
       </div>
       <!-- event image -->
       <div class="col-12 mb-4">
-        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-fluid w-100">
+        <img style="height: 500px;width: 100%;object-fit: cover;" src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+          class="img-fluid w-100">
       </div>
     </div>
     <!-- event info -->
@@ -43,20 +44,28 @@
               </div>
             </div>
           </li>
+          {{ if .Params.Fee.Enable }}
+          {{ with .Params.fee}}
           <li class="list-inline-item mr-xl-5 mr-4 mb-3 mb-lg-0">
             <div class="d-flex align-items-center">
               <i class="ti-wallet text-primary icon-md mr-2"></i>
               <div class="text-left">
                 <h6 class="mb-0">{{ "Biaya" | upper }}</h6>
-                <p class="mb-0">{{ .Params.Fee | markdownify }}</p>
+                <p class="mb-0">{{ .harga | markdownify }}</p>
               </div>
             </div>
           </li>
+          {{ end }}
+          {{ end }}
         </ul>
       </div>
+      {{ if .Params.Apply_url.Enable}}
+      {{ with .Params.Apply_url}}
       <div class="col-lg-3 text-lg-right text-left">
-        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ string "Daftar Sekarang" }}</a>
+        <a href='{{ .link | safeURL }}' class="btn btn-primary">{{ string "Daftar Sekarang" }}</a>
       </div>
+      {{ end }}
+      {{ end }}
       <!-- border -->
       <div class="col-12 mt-4 order-4">
         <div class="border-bottom border-primary"></div>
@@ -78,7 +87,7 @@
       {{ range . }}
       <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
         <div class="media">
-         {{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}
+          {{ with .image }}<img class="mr-3 img-fluid" src="{{ . | relURL }}" alt="speaker">{{ end }}
           <div class="media-body">
             <h4 class="mt-0">{{ .name }}</h4>
             {{ .designation }}
@@ -106,7 +115,8 @@
     </div>
     <div class="row justify-content-center">
       <!-- event -->
-      {{ $related := (where site.RegularPages "Type" "acara") | intersect (where site.Pages ".Title" "!=" .Title) | union (site.RegularPages.Related . ) | shuffle | first 3}}
+      {{ $related := (where site.RegularPages "Type" "acara") | intersect (where site.Pages ".Title" "!=" .Title) |
+      union (site.RegularPages.Related . ) | shuffle | first 3}}
       {{ range first 3 $related }}
       <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
         {{ .Render "acara" }}

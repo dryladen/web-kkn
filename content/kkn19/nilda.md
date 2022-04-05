@@ -30,6 +30,8 @@ contact:
 
 ---
 
-### About Me
+## Proker Individu
 
-Nilda Amriani
+### 1. Poster Edukasi Penyebaran Omnicron
+
+![Covid](/images/kkn19/poster-omnicron.png)
