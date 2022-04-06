@@ -1,0 +1,45 @@
+---
+label: Template Acara
+hide_body: true
+fields:
+- type: field_group
+  name: apply_url
+  label: apply_url
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: link
+    label: link
+- type: file
+  name: bg_image
+  label: bg_image
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: fee
+  label: fee
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: harga
+    label: harga
+- type: file
+  name: image
+  label: image
+- type: text
+  name: location
+  label: location
+- type: datetime
+  name: publishDate
+  label: publishDate
+- type: text
+  name: title
+  label: title
