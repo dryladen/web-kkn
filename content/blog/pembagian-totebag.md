@@ -12,3 +12,4 @@ description: Pembagian Totebag ini diperuntukkan untuk RT. 32. yang bertujuan ag
   warga berbelanja tidak menggunakan kantong plastik.
 
 ---
+Pembagian Totebag ini diperuntukkan untuk RT. 32. yang bertujuan agar warga berbelanja tidak menggunakan kantong plastik. dimana kami mengunjungi tiap rumah di daerah RT. 32
