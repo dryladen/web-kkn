@@ -47,6 +47,11 @@
   {{ $sass := resources.Get "scss/main.scss" }}
   {{ $style := $sass | resources.ToCSS }}
   <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" media="screen">
+  <style>
+    .img-cover {
+      object-fit: cover;
+    }
+  </style>
   <script src="/index.js" defer></script>
 
 </head>
