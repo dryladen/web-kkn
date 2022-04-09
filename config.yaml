@@ -26,10 +26,10 @@ params:
   logo: images/logo.png
   description: This is meta description
   author: Themefisher
-  address: Jl. Labu Siam 1, Sempaja Utara, Kec. Samarinda Utara, Kota Samarinda, Kalimantan
-    Timur 75131
+  address: Jl. Labu Siam, Kel. Sempaja Timur, Kec. Samarinda Utara, Kota Samarinda,
+    Kalimantan Timur 75131
   mobile: "+62 812-5542-670"
-  email: info@educenter.com
+  email: rt32bengkuringsempaja@gmail.com
   contact_form_action: "/contact"
   google_analitycs_id: ''
   top_header: false
