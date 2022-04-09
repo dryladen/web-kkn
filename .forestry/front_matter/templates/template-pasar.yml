@@ -26,12 +26,12 @@ fields:
   label: Penjual
 - type: text
   name: duration
-  label: Hari Buka
-  description: 'Contoh: Senin - Jum''at'
+  description: 'Contoh: 07:00 - 15:00'
+  label: Waktu Buka
 - type: text
   name: open
-  label: Waktu Buka
-  description: 'Contoh: 07:00 - 15:00'
+  label: Hari Buka
+  description: 'Contoh: Senin - Jum''at'
 - type: text
   name: wa
   label: No. Whatsapp
