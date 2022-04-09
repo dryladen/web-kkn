@@ -44,3 +44,5 @@ fields:
 - type: text
   name: type
   label: type
+pages:
+- content/pasar/course-1.md
