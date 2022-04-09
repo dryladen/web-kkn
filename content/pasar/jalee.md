@@ -6,8 +6,8 @@ description: Stik Ikan, berprotein tinggi, cegah stunting
 image: "/images/produk-1-vika.jpg"
 location: RT 32 Bengkuring, Sempaja Timur
 seller: Ibu ?
-duration: Senin - Jum'at
-open: 07:00 - 15:00
+duration: 07:00 - 15:00
+open: Senin - Jum'at
 wa: "+6285248163001"
 message: Assalamualaikum, apakah Stik Jalee-nya masih ada?
 fee: Rp. 10.000
