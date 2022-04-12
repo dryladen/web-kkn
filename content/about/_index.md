@@ -2,7 +2,7 @@
 title: Tentang Desa
 bg_image: images/about/masjid.webp
 image: images/about/masjid.webp
-description: "."
+description: ''
 village_data:
 - name: Warga
   count: "100"
