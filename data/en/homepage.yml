@@ -98,7 +98,7 @@ funfacts:
   enable: true
   funfact_item:
   - name: Warga
-    count: "100"
+    count: 100+
   - name: Kepala Keluarga
     count: "112"
   - name: Rumah Ibadah
