@@ -120,4 +120,6 @@ Languages:
         url: https://app.forestry.io/sites/54h9udufzrvucq/
       - name: Disqus (Komentar)
         url: https://rt32bengkuring.disqus.com/admin/settings/general/
+      - name: Niagahoster (Hosting)
+        url: https://panel.niagahoster.co.id/client
 metaDataFormat: yaml
